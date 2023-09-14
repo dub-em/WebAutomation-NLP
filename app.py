@@ -8,6 +8,10 @@ template = sys.argv[2]
 target = sys.argv[3]
 
 def main(source, template, target):
+    '''This function takes in the source dataset and the template dataset, and using the columns in the 
+    template dataset most similar to columns in the source dataset, it transforms the values in the source
+    dataset to match the preferred format in the template dataset. It also discards duplicate columns and 
+    irrelevant columns.'''
     
     source_2 = pd.read_csv(source, nrows=9)
     template = pd.read_csv(template, nrows=3)
