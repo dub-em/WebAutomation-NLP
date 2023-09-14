@@ -3,6 +3,7 @@ import openai, json
 import sys 
 from config import settings   
  
+#Arguments passed through the command line as requested.
 source = sys.argv[1]
 template = sys.argv[2]
 target = sys.argv[3]
