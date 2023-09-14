@@ -1,7 +1,7 @@
-# AI-Driven Email Generator
+# Web Automator
 
 ### Purpose of this Project 
-+ Uses the details of a user and their preferences to construct personalized sales email. (Privacy and consent is of utmost importance as well)
++ Processes the dataset in the source .csv file and compares each column in the source file to the columns in the template .csv file and uses the most similar columns in the template file to transform the columns in the source file. It alos discards duplicate columns and irrelevant columns.
 
 #### Starting Command
 ```python app.py ./source/table_A.csv ./source/template.csv 'target.csv'```
