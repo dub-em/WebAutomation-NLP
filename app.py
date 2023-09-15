@@ -21,10 +21,13 @@ with st.sidebar:
  
 def main():
     st.header("Web Automator (Transforms Source File to Desired Template) 💬")
+
+    key_1 = "source"
+    key_2 = "template"
  
     # upload a .csv file
-    source = st.file_uploader("Upload your source .csv file", type=["csv"])
-    template = st.file_uploader("Upload your source .csv file", type=["csv"])
+    source = st.file_uploader("Upload your source .csv file", type=["csv"], key=key_1)
+    template = st.file_uploader("Upload your template .csv file", type=["csv"], key=key_2)
  
     # st.write(pdf)
     if (source is not None) & (template is not None):
