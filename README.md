@@ -7,4 +7,8 @@
 ```python app.py ./source/table_A.csv ./source/template.csv 'target.csv'```
 
 #### Link to Loom Video Brief Explanation of the Concept
-+ https://www.loom.com/share/bf5c0874904e4617951cc85a371c0bb1?sid=0414ab4d-0337-49fd-9189-6920416eda8e
+- Command Line Execution Version
++ https://www.loom.com/share/7525c99218c343449fd631092a5e5365?sid=44520a0d-493f-4871-97a4-5461775a5935
+
+- Streamlit Version
++ https://www.loom.com/share/7525c99218c343449fd631092a5e5365?sid=44520a0d-493f-4871-97a4-5461775a5935
