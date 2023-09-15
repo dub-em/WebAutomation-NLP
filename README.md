@@ -13,3 +13,6 @@
 
 - User Interface Version for Non-Technical Users
 + https://www.loom.com/share/373931d569df40b090c6d60aae77121e?sid=278e79bc-a2a3-4b0f-b3d8-9e32b3c98c79
+
+- Shortcoming of the GPT Model and Possible Solutions
++ https://www.loom.com/share/867c7b411ef84372aea5a7ef6fa2b6c6?sid=1a94683d-a49d-48be-b5a4-573cab8030dc
