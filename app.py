@@ -91,6 +91,8 @@ def main(source, template, target):
         if (len(transf_list) == 9) & (temp_column not in list(transformed_source.keys())):
                 transformed_source[temp_column] = transf_list
 
+        print(f"{column} column done!")
+
     #Converts the dictionary to a dataframe and saves the result using the target dataset name provided to the function.
     final_source = pd.DataFrame(transformed_source)
     final_source.to_csv(target)
