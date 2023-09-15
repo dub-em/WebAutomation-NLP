@@ -34,6 +34,7 @@ def main():
 
         # Use Pandas to read the uploaded CSV file
         source_2 = pd.read_csv(source)
+        source_2 = source_2.head(9).copy(deep=True)
         template = pd.read_csv(template)
 
         source = source_2.head(3).copy(deep=True) #Extracts a chunk of the source data to stay within the limit of the prompt
