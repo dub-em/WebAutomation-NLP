@@ -47,8 +47,7 @@ def main():
         #Loops through each column of the source dataset to individually check for the most similar column in the template
         columns = list(source.columns)
         for column in columns:
-            #openai.api_key = settings.openai_key
-            openai.api_key = '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'
+            openai.api_key = settings.openai_key
 
             messages = []
 
