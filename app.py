@@ -1,5 +1,5 @@
 import pandas as pd
-import openai
+import openai, datetime
 from config import settings
 import streamlit as st
 from streamlit_extras.add_vertical_space import add_vertical_space
@@ -47,7 +47,8 @@ def main():
         #Loops through each column of the source dataset to individually check for the most similar column in the template
         columns = list(source.columns)
         for column in columns:
-            openai.api_key = settings.openai_key
+            #openai.api_key = settings.openai_key
+            openai.api_key = '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'
 
             messages = []
 
@@ -98,9 +99,11 @@ def main():
         
         for key in exec_scripts.keys():
             exec(exec_scripts[key][1])
-            source.rename(columns={key: exec_scripts[key][0]}, inplace=True)
+            #source.rename(columns={key: exec_scripts[key][0]}, inplace=True)
             
         source.to_csv('target.csv')
+        with open('conversion_codes.txt', 'w') as file:
+            file.write(str(exec_scripts))
         st.write("Transformed DataFrame:")
         st.write(source)
  
