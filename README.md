@@ -4,7 +4,7 @@
 + Processes the dataset in the source .csv file and compares each column in the source file to the columns in the template .csv file and uses the most similar columns in the template file to transform the columns in the source file. It alos discards duplicate columns and irrelevant columns.
 
 #### Starting Command
-```python app.py ./source/table_A.csv ./source/template.csv 'target.csv'```
+```python app.py ./source/table_A.csv ./source/template.csv target.csv```
 
 #### Link to Loom Video Brief Explanation of the Concept
 - Command Line Execution Version
