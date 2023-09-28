@@ -1,7 +1,7 @@
 # Web Automator
 
 ### Purpose of this Project 
-+ Processes the dataset in the source .csv file and compares each column in the source file to the columns in the template .csv file and uses the most similar columns in the template file to transform the columns in the source file. It alos discards duplicate columns and irrelevant columns.
++ Analyzes the data within the source .csv file and assesses the similarity between each column in the source file and those in the template .csv file. It then employs the most closely matching columns from the template file to modify the columns in the source file. Additionally, it eliminates redundant and non-relevant columns during this process.
 
 #### Starting Command
 ```python app.py ./source/table_A.csv ./source/template.csv target.csv```
